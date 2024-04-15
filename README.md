@@ -19,5 +19,6 @@ You can click the Preview link to take a look at your changes.
 [//]: # (</p>)
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
-   <a href="https://git-scm.com/" target="_blank"> <img src="./img/git-plain.svg" alt="git" width="40" height="40" /> </a>
-</p>
+   <a href="https://git-scm.com/" target="_blank"><img src="./img/git-plain.svg" alt="git" width="40" height="40" /> </a>
+   <a href="https://www.vim.org/" target="_blank"><img src="./img/vim-original.svg" alt="vim" width="40" height="40" /> </a>
+   </p>
