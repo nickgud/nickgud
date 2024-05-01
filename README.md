@@ -18,6 +18,7 @@ You can click the Preview link to take a look at your changes.
 [//]: # (<a href="your link" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="" height="30" width="40" /></a>)
 [//]: # (</p>)
 - ⚡ [Vim](vim/vim.md)
+- ⚡ [Git](git/git.md)
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
    <a href="https://git-scm.com/" target="_blank"><img src="./img/git-plain.svg" alt="git" width="40" height="40" /></a>
