@@ -21,7 +21,7 @@ You can click the Preview link to take a look at your changes.
 - ⚡ [Vim](vim/vim.md)
 - ⚡ [Git](git/git.md)
 - ⚡ [SSH client](git/SSH_client.md)
-- ⚡ [Tmux](git/tmux.md)
+- ⚡ [Tmux](tmux/tmux.md)
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
    <a href="https://www.mozilla.org/" target="_blank"><img src="./img/firefox-original.svg" alt="firefox" width="40" height="40" /></a>
