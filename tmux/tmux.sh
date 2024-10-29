@@ -43,6 +43,6 @@ if ! tmux has-session -t $SESSION; then
     # tmux select-window -t $SESSION:$WINDOW1
 fi
 
-# подключаемся к сесии  '$SESSION'
+# подключаемся к сессии  '$SESSION'
 tmux attach -t $SESSION
 
