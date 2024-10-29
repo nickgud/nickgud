@@ -45,3 +45,4 @@ fi
 
 # подключаемся к сесии  '$SESSION'
 tmux attach -t $SESSION
+
