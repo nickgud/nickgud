@@ -1,22 +1,15 @@
 ![Header](./img/github-nickgud-header-image.png)
-<!---
-- 👋 Hi, I’m Nikolay
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning DevOps
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
 
+- 🌱 I’m currently learning SRE and DevOps
+- 💞️ I’m looking to collaborate with other engineers
+- 📫 Reach me by [Telegram](https://t.me/nickgud), [Email](mailto:goodnv@yandex.ru) 
+- 📄 Know about my experiences [CV](https://cv.nickgud.ru/)
+
+<!---
 
 nickgud/nickgud is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
-<h3 align="left">Connect with me:</h3>
-[//]: # (<p align="left">)
-[//]: # (<a href="your link" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/telegram.svg" alt="" height="30" width="40" /></a>)
-<a href="your link" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/mail-dot-ru.svg" alt="" height="30" width="40" /></a>
-[//]: # (</p>)
 
 <h3 align="left">My Languages and Tools:</h3>
 <p align="left">
