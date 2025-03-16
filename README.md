@@ -26,4 +26,5 @@ You can click the Preview link to take a look at your changes.
 - ⚡ [Vim](vim/vim.md)  
 - ⚡ [Git](git/git.md)  
 - ⚡ [Tmux](tmux/tmux.md)  
-- ⚡ [SSH](/SSH.md)  
+- ⚡ [SSH](/SSH.md)
+- ⚡ [Windows](windows/win.md)  
