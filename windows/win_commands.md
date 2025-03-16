@@ -39,8 +39,55 @@ dcdiag /s:DC1       проверка DC1
 
 ```
 ---  
-###### Net stop и net start (службы windows)    
+###### net stop и net start (службы windows)    
 ```  
 net stop spooler    остановка службы spooler
 net start spooler   запуск службы spooler    
 ```
+
+###### getmac  выводит MAC-адреса всех сетевых карт
+```  
+getmac /v               
+       
+```
+
+######   systeminfo   сведения о конйигурции, ОС, оборудовании
+```  
+systeminfo | Select-String "^OS Name","^OS Version", "^System Boot Time"
+systeminfo /fo CSV > c:\systeminfo.csv  сохранение вывода в файл  
+systeminfo /s pc1   выполнение на удаленном ПК pc1  
+```  
+######  gpresult результаты GPO  
+```  
+gpresult /r                   отчет о GPO, прим для польз-ля и ПК  
+gpresult /r /scope:user       отчет о GPO, прим. к пользователю  
+gpresult /r /scope:computer   отчет о GPO, прим. к пользователю         
+gpresult /s pc1               отчет о GPO, прим. для удаленного ПК pc1
+gpresult /h c:\report.html    сождание отчета в формате html  
+```  
+######     
+```  
+net stop spooler    остановка службы spooler
+       
+```  
+######     
+```  
+net stop spooler    остановка службы spooler
+       
+```  
+######     
+```  
+net stop spooler    остановка службы spooler
+       
+```  
+######     
+```  
+net stop spooler    остановка службы spooler
+       
+```  
+######     
+```  
+net stop spooler    остановка службы spooler
+       
+```  
+
