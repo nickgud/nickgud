@@ -15,7 +15,7 @@ ipconfig /renew      обновление DHCP-адреса
 ipconfig /displaydns вывод кеша DNS  
 ```
 ---  
-###### nslookup  проверка записей DNS
+###### nslookup  проверка DNS
 ```
 ipconfig /all        отображение инфо о всех сетевых картах
 ipconfig /flushdns   очистка локального кеша DNS
@@ -33,30 +33,32 @@ netstat -b          отображение исполняемого файла
 
 ```  
 ---  
-###### dcdiag проверка контроллера домена       
+###### dcdiag проверка DC       
 ```  
 dcdiag /s:DC1       проверка DC1  
 
 ```
 ---  
-###### net stop и net start (службы windows)    
+###### net stop/start службы windows    
 ```  
 net stop spooler    остановка службы spooler
 net start spooler   запуск службы spooler    
 ```
-
-###### getmac  выводит MAC-адреса всех сетевых карт
+---  
+###### getmac  выводит MAC-адреса
 ```  
 getmac /v               
        
 ```
-
-######   systeminfo   сведения о конйигурции, ОС, оборудовании
+---  
+######   systeminfo   сведения о конфигурции
 ```  
 systeminfo | Select-String "^OS Name","^OS Version", "^System Boot Time"
 systeminfo /fo CSV > c:\systeminfo.csv  сохранение вывода в файл  
 systeminfo /s pc1   выполнение на удаленном ПК pc1  
 ```  
+
+---  
 ######  gpresult результаты GPO  
 ```  
 gpresult /r                   отчет о GPO, прим для польз-ля и ПК  
@@ -65,29 +67,41 @@ gpresult /r /scope:computer   отчет о GPO, прим. к пользоват
 gpresult /s pc1               отчет о GPO, прим. для удаленного ПК pc1
 gpresult /h c:\report.html    сождание отчета в формате html  
 ```  
-######     
+---  
+###### whoami     
 ```  
-net stop spooler    остановка службы spooler
-       
+whoami /user                 вывод инфо о пользователе  
+whoami /groups               вывод групп пользователя      
+whoami /all                  вывод всей инфо о пользователе  
 ```  
-######     
+---  
+###### tasklist инфо о процессах
 ```  
-net stop spooler    остановка службы spooler
-       
+tasklist                                                инфо о запущенных процессах
+tasklist /FI "USERNAME eq user" /FI "STATUS eq running" фильтрация вывода      
 ```  
-######     
+---  
+###### taskkill завершить процесс       
 ```  
-net stop spooler    остановка службы spooler
-       
+taskkill /pid <PID> /f    завершение процесса по номеру PID  
 ```  
-######     
+---  
+######  schtasks список заплан. задач   
 ```  
-net stop spooler    остановка службы spooler
-       
+schtasks /query                            список запланированных задач
+schtasks /Run /TN "\Backup\Start Backup"   запустить задачу   
 ```  
-######     
+---  
+###### arp протокол разрешения адресов        
 ```  
-net stop spooler    остановка службы spooler
-       
+arp -a                вывод кеш arp для всех интерфейсов
+arp -a -N if_addr     вывод кеш arp для определенного интерфейса    
 ```  
 
+---  
+###### mmc запуск консоли MMC        
+
+---  
+###### Sysinternals набор утилит
+[Sysinternals](https://learn.microsoft.com/en-us/sysinternals/)  
+  
