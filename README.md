@@ -19,11 +19,11 @@ You can click the Preview link to take a look at your changes.
    <a href="https://github.com/tmux/tmux/wiki/Getting-Started" target="_blank"><img src="./img/tmux-logo-medium.png" alt="tmux" width="120" height="35" /></a>
    <a href="https://mobaxterm.mobatek.net/" target="_blank"><img src="./img/ssh-clients.svg" alt="mobaxterm" width="40" height="40" /></a>
    </p>
-
    <h3 align="left">Wiki:</h3>  
    
-- ⚡ [Firefox](browser/shortcuts_firefox.md)  
-- ⚡ [Vim](vim/vim.md)  
-- ⚡ [Git](git/git.md)  
-- ⚡ [Tmux](tmux/tmux.md)  
-- ⚡ [SSH](/SSH.md)  
+
+- ⚡  [Vim](./vim/vim.md)  
+- ⚡  [Git](./git/git.md)  
+- ⚡  [Tmux](./tmux/tmux.md)  
+- ⚡  [SSH](./SSH.md)  
+- ⚡  [Firefox](./browser/shortcuts_firefox.md)  

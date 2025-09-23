@@ -1,0 +1,17 @@
+# Jekyll
+Gemfile.lock
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
+# Исключить файлы VScode
+.idea/
+.vscode/
+.vs/
+
+# Исключить временные файлы vim
+*~
+*.swp
+*.swo
