@@ -21,9 +21,9 @@ You can click the Preview link to take a look at your changes.
    </p>
    <h3 align="left">Wiki:</h3>  
    
-
-- ⚡  [Vim](./vim/vim.md)  
-- ⚡  [Git](./git/git.md)  
-- ⚡  [Tmux](./tmux/tmux.md)  
-- ⚡  [SSH](./SSH.md)  
-- ⚡  [Firefox](./browser/shortcuts_firefox.md)  
+- ⚡ [Firefox](browser/shortcuts_firefox.md)  
+- ⚡ [Vim](vim/vim.md)  
+- ⚡ [Git](git/git.md)  
+- ⚡ [Tmux](tmux/tmux.md)  
+- ⚡ [SSH](/SSH.md)
+- ⚡ [Windows](windows/win.md)  
