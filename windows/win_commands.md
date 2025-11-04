@@ -17,10 +17,10 @@ ipconfig /displaydns вывод кеша DNS
 ---  
 ###### nslookup  проверка DNS
 ```
-ipconfig /all        отображение инфо о всех сетевых картах
-ipconfig /flushdns   очистка локального кеша DNS
-ipconfig /renew      обновление DHCP-адреса
-ipconfig /displaydns вывод кеша DNS  
+nslookup -type=<тип_записи>       возвращает определенные типы записи
+nslookup -debug                   выводит дополнительные сведения
+nslookup -nosearch                не использовать список доменов для подстановки к имени хоста
+nslookup -recurse                 использовать рекурсивный поиск на других серверах 
 ```
 ---  
 ###### netstat отображение сетевых подключений    
